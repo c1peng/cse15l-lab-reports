@@ -15,5 +15,5 @@
 |I could|be|your|girlfriend|
 
 ````Python
-print(‘Java Number one. ’)
+print('Java Number One. Let's goooo Java crew. ')
 ```` 
