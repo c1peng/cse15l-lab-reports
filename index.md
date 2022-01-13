@@ -33,3 +33,5 @@ print('Java Number One. Let us goooo Java crew. ')
 
 Screenshot here: 
 ![Image](/pics/screenshot1.png)
+
+[Lab Report 1](lab-report-1-week-2.html)
