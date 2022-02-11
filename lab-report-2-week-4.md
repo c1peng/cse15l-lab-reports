@@ -42,7 +42,9 @@ The close parenthesis is missing and the program cannot cut the correct link to 
 [Link to breaking-test_3.md](https://github.com/c1peng/markdown-parse/blob/main/breaking-test_3.md)
 ### Symptom
 ```Java
-null
+Exception in thread "main" java.lang.IndexOutOfBoundsException
+        at MarkdownParse.getLinks(MarkdownParse.java:13)
+        at MarkdownParse.main(MarkdownParse.java:53)
 ```
 ### Description
-We added an empty .md file and let the program analyze it. The program didn't report errors, and the program works well with the empty file. 
+We added an empty .md file and let the program analyze it. The program threw an IndexOutOfBoundsException. To fix it, we should add text into the breaking-test_3.md
