@@ -15,7 +15,7 @@ Note: I don't know which repository I have to review, so I chose Joe's repositor
 - I first ran the code with three tests, there are unrelated signs in the links. So I add a look to delete the signs one by one by using the method .replace() from String. 
 - For the code I reviewed, I did the same thing. But some links is ignored. So I fixed it by changing the number of nextClosedBracket. 
 ## Questions: 
-1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+- Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 ```
             if (toAdd.contains("\n")) {
                 closeParen = markdown.indexOf("\n", openParen);
@@ -33,11 +33,11 @@ Note: I don't know which repository I have to review, so I chose Joe's repositor
 ```
 There are 12 lines for my code to change and there are many lines to test if there are unrelated signs. 
 
-1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
+- Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 The test 1 and test 2 are using the same code to deal with. 
 
-1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+- Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 ```
 String toAdd = "";
             if (nextCloseBracket + 1 == openParen) {
