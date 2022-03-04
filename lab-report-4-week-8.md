@@ -14,6 +14,15 @@ Note: I don't know which repository I have to review, so I chose Joe's repositor
 ![1111](/cse15l-lab-reports/pics/labreport_week8/1111.png)
 - I first ran the code with three tests, there are unrelated signs in the links. So I add a look to delete the signs one by one by using the method .replace() from String. 
 - For the code I reviewed, I did the same thing. But some links is ignored. So I fixed it by changing the number of nextClosedBracket. 
+
+## Screenshots of Outputs: 
+### My code: 
+![2222](/cse15l-lab-reports/pics/labreport_week8/2222.png)
+### The code I reviewed: 
+![3333](/cse15l-lab-reports/pics/labreport_week8/3333.png)
+
+These two outputs are the same after I added my pieces of codes inside. 
+
 ## Questions: 
 - Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
 ```
